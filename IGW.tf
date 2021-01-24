@@ -5,3 +5,6 @@ resource "aws_internet_gateway" "IGW" {
     Name = "IGW"
   }
 }
+
+
+### to create
