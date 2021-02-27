@@ -4,7 +4,7 @@ resource "aws_route_table" "NAT_RTB" {
 
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = aws_nat_gateway.NatGW.id
+    nat_gateway_id  = aws_nat_gateway.NatGW.id
   }
 
   tags = {
